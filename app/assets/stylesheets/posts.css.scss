@@ -1,0 +1,19 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#blog-post{
+  width: 100%;
+  background: #fff;
+  padding: 10px 5px 5px 10px;
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+  h1{
+    margin: 0 0 10px 0;
+
+  }
+  p{
+    font-size: 1.3em;
+  }
+}

@@ -1,0 +1,8 @@
+%div#blog-post
+  -if post.image.file?
+    =image_tag(post.image.url(:normal))
+  %h1.blog-title= link_to(post, post)
+  -if post.created_at
+    %b
+      %p= post.created_at.strftime("%D")
+  %p= post.content
