@@ -27,6 +27,7 @@ gem 'devise'
 gem 'rspec-rails'
 gem 'haml-rails'
 
+gem 'twitter-bootstrap-rails', :git => "http://github.com/seyhunak/twitter-bootstrap-rails.git"
 
 gem 'mongoid-paperclip', :require => "mongoid_paperclip"
 gem 'aws-s3', :require => 'aws/s3'

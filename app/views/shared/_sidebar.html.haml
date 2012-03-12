@@ -1,0 +1,10 @@
+%div.span2
+  %div#recent
+    %h3 Recent Posts
+    -Post.recent_entries.each do |entry|
+      =link_to(entry.title, entry)
+      %br
+  %div#about-on-blog
+    %h3 About
+    %p This is a story about a woman
+

@@ -1,1 +1,4 @@
-=render "post", :post => @post
+%div.row
+  =render "shared/sidebar"
+  %div.span10
+    =render "post", :post => @post

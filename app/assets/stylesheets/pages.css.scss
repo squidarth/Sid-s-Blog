@@ -8,75 +8,61 @@
   background: #fffeee;
   height: 100%;
 
-
 }
 
-#wrapper{
-  width: 960px;
-  margin: auto;
-  #top_part{
-    clear: both;
-    border-bottom: dashed 3px #444;
-    overflow: auto;
-    header.jumbotron{
-      float: left;
-      h1{
-        font-size: 54px;
-        letter-spacing: -1px;
-        line-height: 1;
-        margin-bottom: 9px;
-        a{
-          color: #444;
-
-        }
-      }
-    }
-    #links{
-      list-style: none;
-      display: inline;
-      float: right;
-      margin: 20px 0 0 0;
-      li{
-        display: inline;
-        margin: 0 7px 0 0;
-        a{
-         font-size: 1.5em; 
-        }
-      }
+header.jumbotron{
+  
+  float: left;
+  h1{
+  font-size: 54px;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-bottom: 9px;
+  a{
+    color: #444;
+   }
+  }
+}
+#links{
+  list-style: none;
+  display: inline;
+  margin: 20px 0 0 0px;
+  li{
+    display: inline;
+    margin: 0 7px 0 0;
+    a{
+     font-size: 1.5em; 
     }
   }
-  #yield{
-    clear: both;
-    margin: 10px 0 0 0;
-    #home{
-      p.intro-text{
-        color: #666;
-        margin: 10px 0 0 0;
-        width: 500px;
-        font-size: 1.5em;
-        //letter-spacing: px;
-      }
-      .work{
-        list-style: none;
-        margin: 20px 0 0 0;
-        overflow: auto;
-        width: 100%;
-        clear: both;
-        .piece{
-          float: left;
-          margin: 10px 30px 0 0px;
-          .indiv{
-            background: #ffffff;
-            img{
-              border: solid 1px #aaa;
-              border-radius: 3px;
-            }
+}
+
+.platform{
+  margin: 0 0 0 0px;
+}
+#yield{
+  clear: both;
+  margin: 10px 0 0 0;
+  #home{
+    .intro-text{
+      font-size: 1.3em;
+      //letter-spacing: px;
+    }
+    .work{
+      list-style: none;
+      overflow: auto;
+      clear: both;
+      .piece{
+        float: left;
+        margin: 10px 5px 0 0px;
+        .indiv{
+          background: #ffffff;
+          img{
+            border: solid 1px #aaa;
+            border-radius: 3px;
           }
         }
-
       }
+
     }
   }
-
-
 }

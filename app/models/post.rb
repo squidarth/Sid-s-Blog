@@ -19,6 +19,12 @@ class Post
   def to_s
     title
   end
+  
+  
+  def self.recent_entries
+    Post.all.to_a
+  end
+
   private
     
     def set_time
