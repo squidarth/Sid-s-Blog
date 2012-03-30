@@ -20,8 +20,6 @@ class PostsController < ApplicationController
     else
       redirect_to new_post_path
     end
-
-
   end
 
   def edit

@@ -3,11 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 // CSS Styles for Layout
+body{
+    background: #fffeee;
+
+}
+
 #wrap{
   overflow: auto;
   background: #fffeee;
   height: 100%;
-
+  margin: 10px 0 0 0;
 }
 
 header.jumbotron{
