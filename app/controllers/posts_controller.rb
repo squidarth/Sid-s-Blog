@@ -1,8 +1,8 @@
 class PostsController < ApplicationController
   #before_filter :authenticate_user!
-  
+  before_filter :check_sid, :only => [:new, :create, :update]
   def index
-    @posts = Post.all
+    @posts = Post.find_by_email("sshanker220@gmail.com")
   end
 
   def show
@@ -42,5 +42,13 @@ class PostsController < ApplicationController
     @post.destroy
     redirect_to posts_index_path
   end
+
+  private
+
+    def check_sid
+        if !user_signed_in? || !current_user.email.eql?("sshanker220@gmail.com")
+            redirect_to posts_index_path
+        end
+    end
 
 end
