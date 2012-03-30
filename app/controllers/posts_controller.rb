@@ -2,7 +2,7 @@ class PostsController < ApplicationController
   #before_filter :authenticate_user!
   before_filter :check_sid, :only => [:new, :create, :update]
   def index
-     @user = User.find_by_email("sshanker@gmail.com")
+     @user = User.where(email: "sshanker220@gmail.com")[0]
      @posts = @user.posts
   end
 
