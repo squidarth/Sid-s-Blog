@@ -2,7 +2,8 @@ class PostsController < ApplicationController
   #before_filter :authenticate_user!
   before_filter :check_sid, :only => [:new, :create, :update]
   def index
-    @posts = Post.find_by_email("sshanker220@gmail.com")
+     @user = user.find_by_email("sshanker@gmail.com")
+     @posts = user.posts
   end
 
   def show
@@ -14,7 +15,7 @@ class PostsController < ApplicationController
   end
 
   def create
-    @post = Post.create(params[:post])
+    @post = current_user.posts.create(params[:post])
     if @post.save!
       redirect_to posts_index_path
     else

@@ -13,7 +13,8 @@ class Post
     :styles => {:normal => "250x250"},
     :s3_credentials => "#{Rails.root}/config/s3.yml",
     :path => ":attachment/:id/:style.:extension"
-
+  
+  belongs_to :user
   attr_accessible :content, :title, :image
  
   def to_s
