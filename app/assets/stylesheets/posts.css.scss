@@ -2,17 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#blog-post{
-  background: #fff;
-  padding: 10px 5px 5px 10px;
-  border: solid 1px #aaa;
-  border-radius: 5px;
-  margin: 0 0 10px -10px;
-  h1{
-    margin: 0 0 10px 0;
+#sidebar {
+	.box { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 2px solid rgba(0, 0, 0, .1); overflow: hidden; }
+	h3 { float: left; text-transform: uppercase; text-align: right; margin: 0 20px 0 0; width: 200px; font-size: 15px; }
+	ul { float: left; list-style: none; padding: 0; margin: 0;
+		li {
+			display: inline; float: left; margin-right: 20px;
+			
+			a { color: #aaa; }
+		}
+	}
+	p { margin: 0; padding-left: 220px; }
+}
 
+.post {
+  clear: both; overflow: hidden;
+  border-radius: 4px;
+  margin: 20px 0;
+  h1{
+  	font-size: 2em;
+  	float: left; margin: 0;
   }
-  p{
-    font-size: 1.3em;
+  
+  .date { float: left; text-align: right; margin: 0 20px 0 0; width: 200px; color: #ccc; line-height: 2.3em; } 
+  
+  p {
+  	clear: both;
+	  float: left;
+  	padding-left: 220px;
+  	color: #444; margin: 10px 0;
   }
 }

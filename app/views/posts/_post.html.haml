@@ -1,9 +1,7 @@
-%div.span10
-  %div#blog-post
-    -if post.image.file?
-      =image_tag(post.image.url(:normal))
-    %h1.blog-title= link_to(post, post)
-    -if post.created_at
-      %b
-        %p= post.created_at.strftime("%D")
-    %p= post.content
+%div.post
+  -if post.created_at
+    %span.date= post.created_at.strftime("%D")
+  -if post.image.file?
+    =image_tag(post.image.url(:normal))
+  %h1.blog-title= link_to(post, post)
+  =raw(post.content)

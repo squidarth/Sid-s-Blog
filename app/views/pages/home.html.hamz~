@@ -1,9 +1,7 @@
 %div{:class => "container", :id => "home"}
-  =render "shared/sidebar"
-
   %div{:class => "platform"}
     %ul{:class => "work"}
-      %li{:class => "piece"} 
+      %li 
         %div{:class => "thumbnail indiv"}
           =image_tag("gumroad_shot.png")
           %div.caption
@@ -19,7 +17,7 @@
             %h3= link_to("EventSalsa", "http://www.eventsalsa.com")
             %p 
               %i Founder 
-              %br 
+              %br
               An Event Catalogue for Columbia University
       %li{:class => "piece"}
         %div{:class => "thumbnail indiv"}
@@ -57,6 +55,13 @@
               %i Weekend Hack
               %br 
               A tool for dividing up canvassers on political campaigns.
+  %div{:class => "span3 intro-text"}
+    %h2 About
+    I'm a software engineer at 
+    =link_to("Gumroad.", "http://gumroad.com")
+    Check out some of the stuff I've been working on, or read my
+    =link_to("blog!", posts_index_path)
+
   :javascript
     $(document).ready(function(){
       $(document).imagesLoaded(function(){

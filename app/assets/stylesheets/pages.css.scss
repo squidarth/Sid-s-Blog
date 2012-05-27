@@ -4,33 +4,37 @@
 
 // CSS Styles for Layout
 body{
-    background: #fffeee;
-
+    background: #fff;
+    color: #234545;
+    font-size: 15px;
+    line-height: 23px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .4);
 }
 
-#wrap{
-  overflow: auto;
-  background: #fffeee;
-  height: 100%;
-  margin: 10px 0 0 0;
+a { text-decoration: none; color: #000; }
+a:hover { font-weight: bold; }
+
+.hidden { display: none; }
+
+#wrapper {
+	margin: 20px auto;
+	max-width: 910px;
 }
 
-header.jumbotron{
-  
-  float: left;
-  h1{
-  font-size: 54px;
-  letter-spacing: -1px;
-  line-height: 1;
-  margin-bottom: 9px;
-  a{
-    color: #444;
-   }
+header {
+	margin: 20px auto;
+	max-width: 960px;
+  h1 {
+  	padding-left: 244px;
+  	color: #000 !important;	  font-size: 54px;
+	  text-transform: uppercase;
+	  letter-spacing: -4px;
+	  text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
   }
 }
 #links{
   list-style: none;
-  display: inline;
   margin: 20px 0 0 0px;
   li{
     display: inline;
@@ -57,17 +61,29 @@ header.jumbotron{
       overflow: auto;
       clear: both;
       .piece{
+        display: inline; 
         float: left;
-        margin: 10px 5px 0 0px;
+        margin: 10px 20px 0 0px;
+        height: 280 px;
         .indiv{
-          background: #ffffff;
           img{
             border: solid 1px #aaa;
             border-radius: 3px;
+            width: 240 px;  
+          }
+          .caption{
+            width: 240px;
+            h3{
+              padding: 0 0 0 0;
+              margin: 4px 0 0 0; 
+            }
+            p{
+              padding: 0 0 0 0;
+              margin: 0 0 0 0;
+            } 
           }
         }
       }
-
     }
   }
 }

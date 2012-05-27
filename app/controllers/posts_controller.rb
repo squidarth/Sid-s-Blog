@@ -4,10 +4,16 @@ class PostsController < ApplicationController
   def index
      @user = User.where(email: "sshanker220@gmail.com")[0]
      @posts = @user.posts
+     @posts.each do |post|
+       post.content = "<p>#{post.content}</p>"
+       post.content.gsub!("\r\n\r\n", "</p><p>") 
+     end
   end
 
   def show
     @post = Post.find(params[:id])
+    @post.content = "<p>#{@post.content}</p>"
+    @post.content.gsub!("\r\n\r\n", "</p><p>") 
   end
 
   def new

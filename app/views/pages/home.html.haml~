@@ -1,0 +1,68 @@
+%div{:class => "container", :id => "home"}
+  %div.row
+    %div{:class => "platform"}
+      %ul{:class => "work"}
+        %li{:class => "piece"}
+          %div{:class => "thumbnail indiv"}
+            =image_tag("eventsalsa_shot.png")
+            %div.caption
+              %h3= link_to("EventSalsa", "http://www.eventsalsa.com")
+              %p 
+                %i Founder 
+                %br
+                An Event Catalogue for Columbia University
+        %li{:class => "piece"}
+          %div{:class => "thumbnail indiv"}
+            =image_tag("artinject_shot.png")
+            %div.caption
+              %h3= link_to("ArtInject", "http://www.artinject.com")
+              %p
+                %i Freelance Developer
+                %br
+                An application for buying and selling amateur art at universities.
+        %li{:class => "span3 piece"}
+          %div{:class => "thumbnail indiv"}
+            =image_tag("parkally_shot.png")
+            %div.caption
+              %h3= link_to("ParkAlly", "http://www.parkally.com")
+              %p
+                %i Freelance Developer
+                %br
+                A tool for exchanging parking spaces in New York City.
+        %li{:class => "span3 piece"}
+          %div{:class => "thumbnail indiv"}
+            =image_tag("bkswapper_shot.png")
+            %div.caption
+              %h3= link_to("Bkswapper", "http://bkswapper.heroku.com")
+              %p
+                %i Weekend Hack
+                %br
+                A tool for exchanging textbooks with others on campus.
+        %li{:class => "span3 piece"}
+          %div{:class => "thumbnail indiv"}
+            =image_tag("campaignstop_shot.png")
+            %div.caption
+              %h3= link_to("Campaignstop", "http://campaignstop.heroku.com")
+              %p
+                %i Weekend Hack
+                %br 
+                A tool for dividing up canvassers on political campaigns.
+    %div{:class => "span3 intro-text"}
+      %h2 About
+      I'm a software engineer at 
+      =link_to("Gumroad.", "http://gumroad.com")
+      Check out some of the stuff I've been working on, or read my
+      =link_to("blog!", posts_index_path)
+      
+
+    :javascript
+      $(document).ready(function(){
+        $(document).imagesLoaded(function(){
+          $(".work").masonry({
+            itemSelector : ".piece"
+          
+          });
+        });
+          
+      
+      });

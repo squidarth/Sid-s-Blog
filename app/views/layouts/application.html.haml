@@ -6,22 +6,17 @@
     =csrf_meta_tags
 
   %body
-    %div#wrap
-      %div.container
-        %div.row
-          %div.span9
-            %header{:class => "jumbotron subhead"}
-              %h1= link_to("Sidharth Shanker", root_path)
-          %div.span3
-            %ul#links
-              %li 
-                =link_to image_tag("facebook.png"), "http://www.facebook.com/sshanker1"
-              %li
-                =link_to image_tag("twitter.png"), "http://www.twitter.com/sshanker220"
-              %li
-                =link_to image_tag("linkedin.png"), "http://www.linkedin.com/pub/sidharth-shanker/36/40a/40"
-              %li 
-                =link_to image_tag("github.png"), "http://www.github.com/sshanker220"
-
-        %div#yield
-          =yield
+    %header{:class => "jumbotron subhead"}
+      %h1= link_to("Sidharth Shanker", root_path)
+      %ul{:id => "links", :class => "hidden"}
+        %li 
+          =link_to image_tag("facebook.png"), "http://www.facebook.com/sshanker1"
+        %li
+          =link_to image_tag("twitter.png"), "http://www.twitter.com/sshanker220"
+        %li
+          =link_to image_tag("linkedin.png"), "http://www.linkedin.com/pub/sidharth-shanker/36/40a/40"
+        %li 
+          =link_to image_tag("github.png"), "http://www.github.com/sshanker220"
+    %div#wrapper
+      %div#yield
+        =yield

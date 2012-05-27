@@ -1,13 +1,13 @@
-%div.span2
-  %div#recent
-    %h3 Recent Posts
-    -Post.recent_entries.each do |entry|
-      =link_to(entry.title, entry)
-      %br
-  %div#about-on-blog
-    %h3 About
+%div#sidebar
+  %div.box
+    %h3 Recent posts
+    %ul
+      -Post.recent_entries.each do |entry|
+        %li
+          =link_to(entry.title, entry)
+  %div.box
+    %h3 About me
     %p 
       I'm Sid Shanker, student at Columbia and soon to be software engineer at 
       =link_to "Gumroad.", "http://www.gumroad.com"
-      I write about tech, startups, society, and other miscellaneous stuff. 
-
+      I write about tech, startups, society, and other miscellaneous stuff.
