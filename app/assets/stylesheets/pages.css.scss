@@ -11,7 +11,6 @@ body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-shadow: 0 1px 1px rgba(255, 255, 255, .4);
 }
-
 a { text-decoration: none; color: #000; }
 a:hover { font-weight: bold; }
 
@@ -25,14 +24,25 @@ a:hover { font-weight: bold; }
 header {
 	margin: 20px auto;
 	max-width: 960px;
+  clear: both; 
   h1 {
   	padding-left: 244px;
-  	color: #000 !important;	  font-size: 54px;
-	  text-transform: uppercase;
+  	color: #F08080 !important;	  font-size: 54px;
 	  letter-spacing: -4px;
 	  text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+    a{ color: #F08080;} 
+    float: left; 
   }
+   
+  .twitter-follow-button{
+    float: right;
+    margin: 40px 0 0 10px;
+    color: #aaa;
+  }
+
+
 }
+
 #links{
   list-style: none;
   margin: 20px 0 0 0px;
@@ -45,9 +55,15 @@ header {
   }
 }
 
+	h3 { float: left; text-transform: uppercase; text-align: right; margin: 0 20px 0 0; width: 200px; font-size: 15px; }
+
 .platform{
+	float: right; width: 690px;
   margin: 0 0 0 0px;
 }
+
+ul, menu, dir { margin: 0; padding: 0 }
+
 #yield{
   clear: both;
   margin: 10px 0 0 0;
@@ -63,23 +79,24 @@ header {
       .piece{
         display: inline; 
         float: left;
-        margin: 10px 20px 0 0px;
-        height: 280 px;
+        margin: 0 20px 20px 0; width: 210px;
         .indiv{
           img{
-            border: solid 1px #aaa;
-            border-radius: 3px;
-            width: 240 px;  
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+            width: 100%;
           }
           .caption{
-            width: 240px;
-            h3{
+            h4{
+            	color: #aaa; font-weight: normal;
               padding: 0 0 0 0;
               margin: 4px 0 0 0; 
+              
+              a  { color: #333; font-weight: bold; }
             }
             p{
               padding: 0 0 0 0;
               margin: 0 0 0 0;
+              font-size: 13px; line-height: 19px; margin-top: 4px;
             } 
           }
         }

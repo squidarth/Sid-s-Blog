@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
-  #before_filter :authenticate_user!
   before_filter :check_sid, :only => [:new, :create, :update]
+  
   def index
      @user = User.where(email: "sshanker220@gmail.com")[0]
      @posts = @user.posts
@@ -8,6 +8,7 @@ class PostsController < ApplicationController
        post.content = "<p>#{post.content}</p>"
        post.content.gsub!("\r\n\r\n", "</p><p>") 
      end
+     @posts = @posts.reverse
   end
 
   def show

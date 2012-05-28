@@ -1,61 +1,56 @@
 %div{:class => "container", :id => "home"}
   =render "shared/sidebar"
 
+  %h3 Projects
   %div{:class => "platform"}
     %ul{:class => "work"}
       %li{:class => "piece"} 
         %div{:class => "thumbnail indiv"}
           =image_tag("gumroad_shot.png")
           %div.caption
-            %h3= link_to("Gumroad", "http://gumroad.com")
+            %h4
+              <a href="http://gumroad.com">Gumroad</a>, Software engineer
             %p
-              %i Software Engineer
-              %br
               Sell digital goods as easily as you can share them
       %li{:class => "piece"}
         %div{:class => "thumbnail indiv"}
           =image_tag("eventsalsa_shot.png")
           %div.caption
-            %h3= link_to("EventSalsa", "http://www.eventsalsa.com")
+            %h4
+              <a href="http://www.eventsalsa.com">EventSalsa</a>, Founder
             %p 
-              %i Founder 
-              %br 
               An Event Catalogue for Columbia University
       %li{:class => "piece"}
         %div{:class => "thumbnail indiv"}
           =image_tag("artinject_shot.png")
           %div.caption
-            %h3= link_to("ArtInject", "http://www.artinject.com")
+            %h4
+              <a href="http://www.artinject.com">ArtInject</a>, Freelance developer
             %p
-              %i Freelance Developer
-              %br
               An application for buying and selling amateur art at universities.
       %li{:class => "span3 piece"}
         %div{:class => "thumbnail indiv"}
           =image_tag("parkally_shot.png")
           %div.caption
-            %h3= link_to("ParkAlly", "http://www.parkally.com")
+            %h4
+              <a href="http://www.parkally.com">ParkAlly, Freelance developer
             %p
-              %i Freelance Developer
-              %br
               A tool for exchanging parking spaces in New York City.
       %li{:class => "span3 piece"}
         %div{:class => "thumbnail indiv"}
           =image_tag("bkswapper_shot.png")
           %div.caption
-            %h3= link_to("Bkswapper", "http://bkswapper.heroku.com")
+            %h4
+              <a href="http://bkswapper.heroku.com">Bkswapper</a>, Weekend hack
             %p
-              %i Weekend Hack
-              %br
               A tool for exchanging textbooks with others on campus.
       %li{:class => "span3 piece"}
         %div{:class => "thumbnail indiv"}
           =image_tag("campaignstop_shot.png")
           %div.caption
-            %h3= link_to("Campaignstop", "http://campaignstop.heroku.com")
+            %h4
+              <a href ="http://campaignstop.heroku.com">CampaignStop</a>, Weekend hack
             %p
-              %i Weekend Hack
-              %br 
               A tool for dividing up canvassers on political campaigns.
   :javascript
     $(document).ready(function(){

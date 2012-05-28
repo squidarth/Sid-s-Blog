@@ -8,15 +8,8 @@
   %body
     %header{:class => "jumbotron subhead"}
       %h1= link_to("Sidharth Shanker", root_path)
-      %ul{:id => "links", :class => "hidden"}
-        %li 
-          =link_to image_tag("facebook.png"), "http://www.facebook.com/sshanker1"
-        %li
-          =link_to image_tag("twitter.png"), "http://www.twitter.com/sshanker220"
-        %li
-          =link_to image_tag("linkedin.png"), "http://www.linkedin.com/pub/sidharth-shanker/36/40a/40"
-        %li 
-          =link_to image_tag("github.png"), "http://www.github.com/sshanker220"
+      <a href="https://twitter.com/spshanker" class="twitter-follow-button" data-show-count="false">Follow @spshanker</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     %div#wrapper
       %div#yield
         =yield
