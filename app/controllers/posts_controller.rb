@@ -9,7 +9,7 @@ class PostsController < ApplicationController
        post.content.gsub!("\r\n\r\n", "</p><p>") 
      end
      @posts.sort!{|a,b| b.created_at <=> a.created_at }
-     @post = @posts.reverse 
+     #@post = @posts.reverse 
   end
 
   def show
