@@ -8,7 +8,7 @@ class PostsController < ApplicationController
        post.content = "<p>#{post.content}</p>"
        post.content.gsub!("\r\n\r\n", "</p><p>") 
      end
-     @posts.sort!{|a,b| a.created_at <=> b.created_at }
+     @posts.sort!{|a,b| b.created_at <=> a.created_at }
   end
 
   def show
