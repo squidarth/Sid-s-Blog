@@ -23,7 +23,7 @@ class Post
   
   
   def self.recent_entries
-    Post.all.to_a
+    Post.all.to_a.sort! {|a,b| a.created_at <=> b.created_at}[0..3]
   end
 
   private
