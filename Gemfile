@@ -17,6 +17,7 @@ end
 
 gem 'jquery-rails'
 
+gem 'bloggy'
 gem 'mongoid'
 gem 'bson_ext'
 gem 'database_cleaner'
