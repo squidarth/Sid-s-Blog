@@ -1,0 +1,23 @@
+---
+layout: default
+title: Sid Shanker
+---
+
+<!--- TODO:  have a list of all the posts with content on this page, along with a sidebar
+
+that needs to be designed. Stick a list of recent posts in mongo for the main page, maybe
+figure out a way to automate the insertion of those urls.  (have some exposed url that i 
+can hit with curl and the name of the blog post every time i have a new one (some rake
+task that I run when the blog post is complete -->
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <div class="post">
+        <h2><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h2> 
+          <p class="date">{{ post.date | date: "%d %B %Y" }}</p> 
+          {{ post.content }}
+      </div>
+    {% endfor %}
+  </ul>
+</div>

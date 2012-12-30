@@ -1,0 +1,20 @@
+--- 
+layout: post
+title: Eating
+---
+
+People tend to take eating for granted. Since it’s something we do everyday, people with busy schedules tend to not devote much thought to it. The thing is, when we don’t devote that much time to thinking about food, we tend to pick easy choices and get lazy. Which typically means eating unhealthily.
+
+Eating healthily is a habit like any other, and takes a while to develop. And because people tend to forget how much discipline and thought is required to actually eat healthily, a lot of people go through bursts of eating healthily for a little while, and then go back to their old ways.
+
+Recently, I’ve been thinking a lot about ways this problem can be solved. I think one of the biggest problems is one that is true of exercise as well. I’ve noticed that when I go on vacation, after coming back, getting back into a regular workout routine is really hard. The thing about eating is that going out to get a meal with friends is the equivalent of taking a vacation.
+
+When we go out to eat, we are faced with a bunch of delicious options. Each dish comes along with a description of how awesome it is, without much information about how it might fit into your diet.
+
+So while there are a lot of solutions out there for keeping track of how much you are eating and how much and what you should be eating, like the FitBit, nothing really exists that deals with this problem—which is that it is difficult to keep to a diet and build a habit of eating healthily if you are constantly being interrupted by eating out.
+
+A good start towards dealing with this could be collecting data on meals at various restaurants and then providing a way for restaurant-goers to find out more information about the choices available to them so that they can make the best decision for their health. A lot of data exists already in fact.
+
+And then this could be taken to a personal level as well. The same software could learn the restaurant-goers tastes and spending preferences and give great recommendations. Maybe it could even put together a very malleable schedule for people with details about what they should eat on each day, obviously subject to constraints like “I’m eating at X restaurant with friends tonight” or “I’m in a rush”. So instead of simply resorting to bad food decisions when there isn’t enough time to prepare food or when you are spontaneously invited to eat with friends, you can have some guide as to how to keep eating healthily. It also saves busy people the headache of having to choose where to eat.
+
+It might seem a little sad to delegate a choice as essential as to what to eat to a machine. It’s important to realize though that eating healthily is not that easy and for people with busy schedules, a little bit of help from a machine could help. And yes, I realize that this is “first-world problem” worthy, but hey, some “first-world problems” are worth solving.

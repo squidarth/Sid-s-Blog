@@ -1,0 +1,24 @@
+--- 
+layout: post
+title: Confusion in the College Debate
+---
+
+In making my decision to leave school and join a startup, and in the process, I’ve done a lot of thinking about the value of college. And I’ve read a lot of the things that Peter Thiel has to say about it. Peter Thiel has said repeatedly that there is a “bubble” in education ala the real estate bubble of the past decade and that just like there were many homeowners who should not have bought houses during the housing bubble, there are way too many students who should not be going to college who are in fact going to college.
+
+So in response to this “education bubble”, Thiel has started a program in which he gives $100,000 to college students to leave school to pursue their entrepreneurial passions. There are a couple problems with this, from both an intellectual and practical standpoint. For one, Thiel is confusing two separate issues. He is making a generalization about society, that too many people are going to college, and then celebrating the success of hyper-ambitious students, many of whom who come from Ivy League universities, who aspire to having amazing Silicon Valley careers.
+
+But Thiel’s 20-under-20 program exists explicitly to encourage the rest of society to act the same way. And it is probably evidence of Thiel’s tunnel vision that he believes that somehow the average American is going to be as ambitious as the students who are admitted into his 20-under-20 program. I remember Vivek Wadhwa says at one point in the 60 Minutes special on Peter Thiel that the students who are admitted to Thiel’s program are probably going to regret their decisions to leave school to pursue their entrepreneurial interests.
+
+He is probably wrong. The type of student who is admitted into Thiel’s program is probably the type of person who is going to be successful in any environment they are dropped into, and Silicon Valley is a place where smart people can go far without any formal credentials at all.
+
+But there is a problem when you take this fact about Silicon Valley and try to apply that mentality to people everywhere.
+
+So I would like to consider two discussions. One is—is it true that there are too many people going to college today and should the government be encouraging more and more students to go to college? The other is whether or not it is a good idea for hyper-ambitious students like the ones that are admitted to Thiel’s program to leave school. I’ll start with the latter discussion—the answer to which is that it probably doesn’t matter, and that it depends on the circumstances under which that ambitious student is operating. If you have aspirations of being an tech entrepreneur, it certainly doesn't matter. Having had a few years of experience either starting your own company or working for a small startup probably matters a lot more in Silicon Valley than having a college degree. If a great opportunity comes along, it wouldn’t really make sense to stay in school.
+
+That’s not to say that college isn’t valuable. If you take college and academics seriously, I think that it gives you a broad understanding of the world and fields of knowledge that are not necessarily directly profitable. Learning philosophy has enriched my life and refined the way I think and make arguments. Learning about computational complexity and theoretical computer science has given me a better way of reasoning about algorithms and has made me a better programmer. I’ll certainly discuss this more in a later blog post.
+
+But what about the other issue, the question of whether or not the rest of society should be encouraged to go to college or not? This is a far more difficult question to answer. College historically has been a means to bettering oneself materially, and that is proving to be less and less true as time goes on. If you look at people in their 40s-50s today, there is probably a big differential in earnings between people with college degrees and those without. But among young people, there is less of a difference.
+
+At the same time, college is the only way to be qualified for many good careers, such as nursing and accounting. And especially for people from low-income backgrounds, it can often be the only way to get positions in fields such as sales at existing companies. While Thiel will talk about in the future everybody will have to be an entrepreneur and that the days of big companies are over, the reality is that today most people begin their careers working for someone else.
+
+I’m not sure what the right answer is, and it’s obvious that our college system needs to be reformed. But regardless, it’s important to not draw conclusions about deep societal questions based on the experience of very ambitious Silicon Valley dropouts. There are only so many Mark Zuckerbergs in the world.

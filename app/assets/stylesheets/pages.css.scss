@@ -25,37 +25,41 @@ header {
 	margin: 20px auto;
 	max-width: 960px;
   clear: both; 
-  h1 {
-  	padding-left: 244px;
-  	color: #F08080 !important;	  font-size: 54px;
-	  letter-spacing: -4px;
-	  text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
-    a{ color: #F08080;} 
-    float: left; 
-  }
-   
-  .twitter-follow-button{
-    float: right;
-    margin: 40px 0 0 10px;
-    color: #aaa;
-  }
+}
 
+header h1 {
+  padding-left: 244px;
+  color: #F08080 !important;	  font-size: 54px;
+  letter-spacing: -4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+  float: left; 
+}
 
+  
+header h1 a{ color: #F08080;} 
+
+header .twitter-follow-button{
+  float: right;
+  margin: 40px 0 0 10px;
+  color: #aaa;
 }
 
 #links{
   list-style: none;
   margin: 20px 0 0 0px;
-  li{
-    display: inline;
-    margin: 0 7px 0 0;
-    a{
-     font-size: 1.5em; 
-    }
-  }
+  
 }
 
-	h3 { float: left; text-transform: uppercase; text-align: right; margin: 0 20px 0 0; width: 200px; font-size: 15px; }
+#links li{
+  display: inline;
+  margin: 0 7px 0 0;
+}
+
+#links li a{
+  font-size: 1.5em; 
+}
+
+h3 { float: left; text-transform: uppercase; text-align: right; margin: 0 20px 0 0; width: 200px; font-size: 15px; }
 
 .platform{
 	float: right; width: 690px;
@@ -67,40 +71,44 @@ ul, menu, dir { margin: 0; padding: 0 }
 #yield{
   clear: both;
   margin: 10px 0 0 0;
-  #home{
-    .intro-text{
-      font-size: 1.3em;
-      //letter-spacing: px;
-    }
-    .work{
-      list-style: none;
-      overflow: auto;
-      clear: both;
-      .piece{
-        display: inline; 
-        float: left;
-        margin: 0 20px 20px 0; width: 210px;
-        .indiv{
-          img{
-            box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
-            width: 100%;
-          }
-          .caption{
-            h4{
-            	color: #aaa; font-weight: normal;
-              padding: 0 0 0 0;
-              margin: 4px 0 0 0; 
-              
-              a  { color: #333; font-weight: bold; }
-            }
-            p{
-              padding: 0 0 0 0;
-              margin: 0 0 0 0;
-              font-size: 13px; line-height: 19px; margin-top: 4px;
-            } 
-          }
-        }
-      }
-    }
+}
+
+#yield #home{
+  .intro-text{
+    font-size: 1.3em;
+    //letter-spacing: px;
   }
 }
+
+
+#yield #home .work{
+  list-style: none;
+  overflow: auto;
+  clear: both;
+}
+
+
+#yield #home .work .piece{
+  display: inline; 
+  float: left;
+  margin: 0 20px 20px 0; width: 210px;
+}
+
+#yield #home .work .piece .indiv .caption p{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 13px; line-height: 19px; margin-top: 4px;
+}
+
+#yield #home .work .piece .indiv .caption h4{
+    color: #aaa; font-weight: normal;
+    padding: 0 0 0 0;
+    margin: 4px 0 0 0; 
+}
+
+#yield #home .work .piece .indiv .caption h4 a  { color: #333; font-weight: bold; }
+#yield #home .work .piece .indiv img{
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+  width: 100%;
+}
+

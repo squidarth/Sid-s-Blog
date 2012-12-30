@@ -2,34 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#sidebar {
-	.box { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 2px solid rgba(0, 0, 0, .1); overflow: hidden; }
-	h3 { float: left; text-transform: uppercase; text-align: right; margin: 0 20px 0 0; width: 200px; font-size: 15px; }
-	ul { float: left; list-style: none; padding: 0; margin: 0;
-		li {
-			display: inline; float: left; margin-right: 20px;
-			
-			a { color: #aaa; }
-		}
-	}
-	p { margin: 0; padding-left: 220px; }
+#sidebar p { margin: 0; padding-left: 220px; }
+#sidebar .box { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 2px solid rgba(0, 0, 0, .1); overflow: hidden; }
+#sidebar h3 { float: left; text-transform: uppercase; text-align: right; margin: 0 20px 0 0; width: 200px; font-size: 15px; }
+
+#sidebar ul { float: left; list-style: none; padding: 0; margin: 0;}
+#sidebar ul li {
+  display: inline; 
+  float: left; 
+  margin-right: 20px;
 }
 
+#sidebar ul li a { color: #aaa; }
+    
 .post {
   clear: both; overflow: hidden;
   border-radius: 4px;
   margin: 20px 0;
-  h1{
-  	font-size: 2em;
-  	float: left; margin: 0;
-  }
-  
-  .date { float: left; text-align: right; margin: 0 20px 0 0; width: 200px; color: #ccc; line-height: 2.3em; } 
-  
-  p {
-  	clear: both;
-	  float: left;
-  	padding-left: 220px;
-  	color: #444; margin: 10px 0;
-  }
+}
+
+.post p {
+  clear: both;
+  float: left;
+  padding-left: 220px;
+  color: #444; margin: 10px 0;
+}
+
+.post .date { float: left; text-align: right; margin: 0 20px 0 0; width: 200px; color: #ccc; line-height: 2.3em; } 
+.post h1{
+  font-size: 2em;
+  float: left; margin: 0;
 }
